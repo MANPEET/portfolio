@@ -17,14 +17,14 @@ const projects = [
     description: "Full-stack MERN chat application supporting 1-on-1 and group messaging over Socket.IO, with live typing indicators, delivered/read receipts down to the per-member level in group chats, group admin roles with kick/promote/leave permissions, and a searchable contacts system to start new conversations.",
     tech: ["React", "Express", "MongoDB", "Socket.IO", "Zustand", "Cloudinary", "Tailwind CSS"],
     github: "#",
-    live: "#",
+    live: "https://chat-app-zg5h.vercel.app/",
     image: "/img/chat-app.png",
   }
 ];
 
 const Projects = () => {
   return (
-    <section id="projects" className="lg:px-27 py-20">
+    <section id="projects" className="lg:px-27 py-20 px-5">
       <h2 className="text-5xl font-semibold py-18 lg:text-8xl text-center">Projects</h2>
 
       <div className="flex flex-col gap-16">

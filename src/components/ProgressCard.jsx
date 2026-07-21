@@ -7,34 +7,34 @@ const ProgressCard = () => {
         {
             title:"HTML",
             description:"The backbone of every webpage. I use semantic HTML to ensure accessibility, SEO optimization, and well-structured foundation for web applications.",
-            progressWidth:"91%"
+            progressWidth:"92%"
         },
         {
             title:"CSS & Tailwind CSS",
             description:"I design sleek, responsive, and visually appealing interfaces using CSS. With Tailwind CSS, I speed up the development process by leveraging its utility-first approach for styling.",
-          progressWidth:"96%"
+            progressWidth:"95%"
         },
         {
             title:"JavaScript",
             description:"The language that brings interactivity to the web. From DOM manipulation to API integrations, I use JavaScript to create dynamic and engaging user experiences.",
-            progressWidth:"75%"
+            progressWidth:"80%"
         },
         {
-            title:"ReactJS",
-            description:"A powerful JavaScript library for building fast and scalable UI components. I leverage React’s component-based structure and hooks to create interactive and high-performance applications.",
-            progressWidth:"91%"
+            title:"React & Next.js",
+            description:"I build fast, scalable UI with React's component-based structure and hooks, and use Next.js for full-stack SaaS applications with server components, routing, and API integration.",
+            progressWidth:"93%"
         },
         {
             title:"Node.js & Express.js",
             description:"For backend development, I use Node.js and Express.js to build robust, scalable, and efficient APIs, ensuring smooth data handling and authentication for web applications.",
-            progressWidth:"87%"
+            progressWidth:"89%"
         },
         {
-            title:"MongoDB",
-            description:"A flexible and scalable NoSQL database. I use MongoDB to store and manage data efficiently, allowing applications to handle large amounts of unstructured or semi-structured data with ease.",
-            progressWidth:"83%"
+            title:"MongoDB & PostgreSQL",
+            description:"I work with both NoSQL and relational databases — MongoDB for flexible, scalable data storage and PostgreSQL (with Prisma) for structured, relational SaaS data models.",
+            progressWidth:"85%"
         },
-      ];
+    ];
     
     return (
         <div className="mx-5 sm:mx-6 md:mx-8 lg:mx-22 px-0 sm:px-4 py-16 sm:py-24">

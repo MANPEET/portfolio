@@ -63,11 +63,11 @@ function App() {
       <div className="text-[#262729] py-6 sm:py-8 ">
         <Header />
 
-        <div className="mx-5 sm:mx-6 md:mx-8 lg:mx-28 mt-14 lg:mt-12">
+        <div className="mx-5  md:mx-8 lg:mx-28 mt-14 lg:mt-12">
           <div className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-medium tracking-[-0.03em] lg:tracking-[-0.045em] mb-8 lg:mb-10">
             <div className="flex flex-col mb-6 lg:mb-7">
               <div className="flex items-center">
-                <div className="lg:mb-4 w-[70vw] mr-3">
+                <div className="lg:mb-4  mr-3">
                   <h1>Full-Stack Engineer</h1>
                 </div>
 
@@ -93,13 +93,13 @@ function App() {
                 <span className="px-2 py-1 bg-gray-900 text-white rounded-lg ml-2">Real Products</span>
               </h2>
 
-              <div className="text-center">
+              <div className="lg:text-center">
                 <p className="text-lg text-gray-600">Not Just Demos</p>
               </div>
             </div>
 
             <div className="hidden lg:block mx-15 border-r h-25" />
-            <div className="lg:hidden border-b w-24 my-2" />
+            <div className="lg:hidden border-b w-24 lg:my-2 my-1" />
 
             <div className="text-[#54575D] text-base sm:text-lg lg:w-[65%]">
               I'm <b>Manpreet, a recent diploma graduate and Full-Stack Developer</b> specializing
@@ -125,8 +125,8 @@ function App() {
             </button>
           </div>
 
-          <div className="w-full lg:w-[50%]">
-            <div className="flex flex-wrap gap-x-6 gap-y-3 lg:justify-between uppercase items-center">
+          <div className="w-full lg:w-[50%] flex items-center justify-center lg:block">
+            <div className="flex flex-wrap gap-x-20 gap-y-3 lg:justify-between uppercase items-center">
               <a href="https://github.com/MANPEET" className="flex items-center hover:opacity-60 transition-opacity">
                 <FaGithub className="inline mr-2" /> Github
               </a>
