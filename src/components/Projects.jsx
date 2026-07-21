@@ -16,7 +16,7 @@ const projects = [
     tagline: "Real-Time Messaging with WhatsApp-Style Delivery & Read Receipts",
     description: "Full-stack MERN chat application supporting 1-on-1 and group messaging over Socket.IO, with live typing indicators, delivered/read receipts down to the per-member level in group chats, group admin roles with kick/promote/leave permissions, and a searchable contacts system to start new conversations.",
     tech: ["React", "Express", "MongoDB", "Socket.IO", "Zustand", "Cloudinary", "Tailwind CSS"],
-    github: "#",
+    github: "https://github.com/MANPEET/chat-app",
     live: "https://chat-app-zg5h.vercel.app/",
     image: "/img/chat-app.png",
   }
