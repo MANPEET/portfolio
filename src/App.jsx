@@ -63,26 +63,35 @@ function App() {
       <div className="text-[#262729] py-6 sm:py-8 ">
         <Header />
 
-        <div className="mx-5  md:mx-8 lg:mx-28 mt-14 lg:mt-12">
+        <div className="sm:mx-5 md:mx-8 lg:mx-28 mt-14 lg:mt-12 mx-3">
           <div className="text-5xl sm:text-6xl md:text-7xl lg:text-9xl font-medium tracking-[-0.03em] lg:tracking-[-0.045em] mb-8 lg:mb-10">
-            <div className="flex flex-col mb-6 lg:mb-7">
-              <div className="flex items-center">
-                <div className="lg:mb-4  mr-3">
-                  <h1>Full-Stack Engineer</h1>
-                </div>
-
-                <div className="-mb-2 lg:-mb-[14px]">
-                  <h1 className="border-4 lg:border-5 rounded-full px-3 lg:px-5 py-1 lg:py-2 text-4xl sm:text-5xl lg:text-7xl lg:mr-45">
+            <div className="flex flex-col mb-6 lg:mb-7 ">
+              <h1 className=" leading-[0.98] tracking-tight text-left ">
+                <span className="block md:hidden text-[2.7rem] xs:text-[2.6rem] sm:text-[4.2rem]">
+                  Full-Stack Engineer
+                  <br />
+                  <span className="inline-flex items-center justify-center border-[0.06em] border-neutral-900 rounded-full w-[1.62em] h-[1.62em] text-[0.62em] font-semibold mx-[0.05em] align-middle">
                     &amp;
-                  </h1>
-                </div>
-              </div>
-
-              <div className="flex items-center">
-                <h1>Fr</h1>
-                <h1 className="border-4 lg:border-10 rounded-full w-16 h-8 sm:w-20 sm:h-10 lg:w-41 lg:h-15 mt-5 lg:mt-10 ml-1" />
-                <h1>nt-End Developer</h1>
-              </div>
+                  </span>{" "}
+                  Fr
+                  <span className="inline-block border-[0.09em] border-neutral-900 rounded-full w-[2.05em] h-[0.52em] mx-[0.02em] align-middle" />
+                  nt
+                  <br />
+                  -End Developer
+                </span>
+ 
+                <span className="hidden md:block text-[3rem] lg:text-[4rem] xl:text-[8.5rem]">
+                  Full-Stack Engineer{" "}
+                  <span className="inline-flex items-center justify-center border-[0.05em] border-neutral-900 rounded-full w-[1.2em] h-[1.2em] text-[0.6em] font-semibold mx-[0.05em] align-middle">
+                    &amp;
+                  </span>
+                  <br />
+                  Fr
+                  <span className="inline-block border-[0.08em] border-neutral-900 rounded-full w-[1em] h-[0.5em] mx-[0.03em] align-middle" />
+                  nt-End Developer
+                </span>
+        
+              </h1>
             </div>
           </div>
 
@@ -99,7 +108,7 @@ function App() {
             </div>
 
             <div className="hidden lg:block mx-15 border-r h-25" />
-            <div className="lg:hidden border-b w-24 lg:my-2 my-1" />
+            <div className="lg:hidden border-b w-100 lg:my-2 my-1" />
 
             <div className="text-[#54575D] text-base sm:text-lg lg:w-[65%]">
               I'm <b>Manpreet, a recent diploma graduate and Full-Stack Developer</b> specializing
